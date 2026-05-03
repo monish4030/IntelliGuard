@@ -1,0 +1,32 @@
+{
+  "model": {
+    "contamination": 0.05,
+    "n_estimators": 200,
+    "random_state": 42,
+    "max_samples": "auto"
+  },
+  "thresholds": {
+    "brute_force_attempts": 5,
+    "rapid_request_rate": 20,
+    "anomaly_score_low": -0.1,
+    "anomaly_score_medium": -0.3,
+    "anomaly_score_high": -0.5
+  },
+  "simulation": {
+    "normal_event_count": 200,
+    "attack_event_count": 50,
+    "normal_request_rate_max": 10,
+    "attack_request_rate_min": 30,
+    "normal_fail_rate": 0.05,
+    "attack_fail_rate": 0.85
+  },
+  "logging": {
+    "log_file": "logs/intelliguard.log",
+    "max_display_rows": 25
+  },
+  "alerts": {
+    "enable_console_color": true,
+    "show_score": true,
+    "show_reason": true
+  }
+}
