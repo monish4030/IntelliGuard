@@ -1,0 +1,33 @@
+# ================================
+#   IntelliGuard - .gitignore
+#   Made By Monish Paramasivam
+# ================================
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Trained Model Files (auto-generated on first run)
+models/*.pkl
+
+# Log Files (auto-generated)
+logs/
+
+# Dataset (auto-generated)
+data/network_events.csv
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
