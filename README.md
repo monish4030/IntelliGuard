@@ -11,7 +11,7 @@ An advanced, portfolio-grade AI-powered Intrusion Detection System (IDS) built w
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║         AI-POWERED INTRUSION DETECTION SYSTEM  v1.0.0               ║
-║  Made By: Monish Paramasivam         Powered by: Isolation Forest   ║
+║  Made By: Monish Paramasivam                  
 ╚══════════════════════════════════════════════════════════════════════╝
 
   ══════════════════════════════════════════════════════════════
@@ -82,7 +82,7 @@ IntelliGuard/
 
 ### 1. Clone or download the project
 ```bash
-git clone https://github.com/yourusername/IntelliGuard.git
+git clone https://github.com/monish4030/IntelliGuard.git
 cd IntelliGuard
 ```
 
